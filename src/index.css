@@ -10,4 +10,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+
+.navActive {
+  color: var(--secondary);
+  cursor: default;
+  text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.5);
+}
+
+nav {
+  position: relative;
+  font-family: 'Aladin', cursive;
+  font-size: 2.5rem;
+  margin: 30px 20px;
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  color: red;
 }
