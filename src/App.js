@@ -3,6 +3,7 @@ import Page from './components/Page'
 import Header from './components/Header'
 import Nav from './components/Nav'
 import About from './components/About'
+import Hero from './assets/hero.jpg'
 
 function App() {
   const [pages] = useState([
@@ -13,9 +14,10 @@ function App() {
   ])
 
   const [currentPage, SetCurrent] = useState(pages[0])
-  console.log('Working')
+
   return (
     <div>
+      <img src={Hero} className='hero'></img>
       <Header>
         <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
       </Header>
