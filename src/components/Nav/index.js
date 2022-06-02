@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Nav(location) {
     const {
@@ -7,12 +7,17 @@ function Nav(location) {
         currentPage
     } = location
 
+    useEffect(() => {
+        document.title = (currentPage.name);
+      }, [currentPage]);
+
+
     return (
         <nav>
-            <ul className='flex-row'>
+            <ul className='flex-row no-decoration'>
                 {pages.map((Page) => (
                     <li className={`${ currentPage.name === Page.name }`} key={Page.name}>
-                        <span onClick={() => SetCurrent(Page)}></span>
+                        <span onClick={() => SetCurrent(Page)}>{Page.name}</span>
                     </li>
                 ))}
             </ul>

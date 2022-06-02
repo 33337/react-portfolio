@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import Page from './components/Page'
 import Header from './components/Header'
-import Nav from './components/Nav';
-import About from './components/About';
+import Nav from './components/Nav'
+import About from './components/About'
 
 function App() {
   const [pages] = useState([
@@ -13,7 +13,7 @@ function App() {
   ])
 
   const [currentPage, SetCurrent] = useState(pages[0])
-
+  console.log('Working')
   return (
     <div>
       <Header>
