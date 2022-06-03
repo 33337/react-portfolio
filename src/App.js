@@ -9,8 +9,7 @@ function App() {
   const [pages] = useState([
     { name: 'About me' },
     { name: 'Portfolio' },
-    { name: 'Resume' },
-    { name: 'Contact' }
+    { name: 'Resume' }
   ])
 
   const [currentPage, SetCurrent] = useState(pages[0])
@@ -22,7 +21,7 @@ function App() {
         <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
       </Header>
       <main>
-        <About></About>
+        <Page currentPage={currentPage}></Page>
       </main>
     </div>
   );
