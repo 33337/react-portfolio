@@ -3,9 +3,21 @@ import React from 'react'
 function Resume() {
     return(
         <div>
-            <p>
-                You can find a link to my resume here:
-            </p>
+            <p>Skillsets:</p>
+            <p>-HTML</p>
+            <p>-CSS</p>
+            <p>-Javscript</p>
+            <p>-Node.js</p>
+            <p>-MongoDB</p>
+            <p>-Express.js</p>
+            <p>-React.js</p>
+            <p>-MySQL</p>
+            <p>-OOP (Object-Oriented Programming)</p>
+            <p>-MVC (Model-View Controller)</p>
+            <p>-PWA (Progressive Web Applications)</p>
+            <p>-REST APIs</p>
+            <p>-Several years experience in sales and customer service</p>
+            <p>-Fundamental understanding of market psychology and macroeconomic trends</p>
         </div>
     )
 }

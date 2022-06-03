@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Nav from './components/Nav'
 import About from './components/About'
 import Hero from './assets/hero.jpg'
+import Bottom from './assets/bottom.jpg'
 
 function App() {
   const [pages] = useState([
@@ -23,6 +24,7 @@ function App() {
       <main>
         <Page currentPage={currentPage}></Page>
       </main>
+      <img src={Bottom} className='bottom'></img>
     </div>
   );
 }
