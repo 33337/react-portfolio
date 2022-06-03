@@ -16,7 +16,9 @@ function Resume() {
             <p>-MVC (Model-View Controller)</p>
             <p>-PWA (Progressive Web Applications)</p>
             <p>-REST APIs</p>
+            <br></br>
             <p>-Several years experience in sales and customer service</p>
+            <br></br>
             <p>-Fundamental understanding of market psychology and macroeconomic trends</p>
         </div>
     )
