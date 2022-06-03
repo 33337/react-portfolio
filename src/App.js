@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Page from './components/Page'
 import Header from './components/Header'
 import Nav from './components/Nav'
-import About from './components/About'
 import Hero from './assets/hero.jpg'
 import Bottom from './assets/bottom.jpg'
 
