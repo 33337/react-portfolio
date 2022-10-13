@@ -16,14 +16,14 @@ function App() {
 
   return (
     <div>
-      <img src={Hero} className='hero'></img>
+      <img src={Hero}  alt='hero' className='hero'></img>
       <Header>
         <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
       </Header>
       <main>
         <Page currentPage={currentPage}></Page>
       </main>
-      <img src={Bottom} className='bottom'></img>
+      <img src={Bottom} alt= 'bottom' className='bottom'></img>
     </div>
   );
 }

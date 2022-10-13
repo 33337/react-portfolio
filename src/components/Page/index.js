@@ -2,6 +2,7 @@ import React from 'react'
 import PageContent from '../PageContent'
 import About from '../About'
 import Resume from '../Resume'
+import Portfolio from '../Portfolio'
 
 function Page({ currentPage }) {
 
@@ -11,6 +12,8 @@ function Page({ currentPage }) {
                 return <About></About>
             case 'Resume':
                 return <Resume></Resume>
+            case 'Portfolio':
+                return <Portfolio></Portfolio>
             default:
                 return <About></About>
         }
